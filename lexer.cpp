@@ -161,7 +161,7 @@ void Lexer::transduce(std::string text) {
                         }
                     }
                 }
-                tokens.push_front(Token(lexeme, state));
+                tokens.push_back(Token(lexeme, state));
             } else {
                 errors.push_back(Error(lexeme, state));
             }
