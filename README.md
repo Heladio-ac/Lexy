@@ -12,9 +12,7 @@ Lexy is a Lexical Analyser which creates tokens classified in the following gram
 
 ## Transition Function
 
-Lexy uses a matrix to determine its next state. The transition matrix is as follows:
-
-> Insert matrix here
+Lexy uses a matrix to determine its next state.
 
 ### Codes for delimiting states
 
